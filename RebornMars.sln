@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RebornMars", "RebornMars\RebornMars.csproj", "{2BFD5774-8379-4A81-A2C6-17F36929C20A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RebornMars.UI.Shell", "RebornMars.UI.Shell\RebornMars.UI.Shell.csproj", "{ADCD6858-E675-426C-B037-18154CE08EDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RebornMars.Core", "RebornMars.Core\RebornMars.Core.csproj", "{BA9DF792-3F3A-4568-9399-AD5DA422BE39}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2BFD5774-8379-4A81-A2C6-17F36929C20A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BFD5774-8379-4A81-A2C6-17F36929C20A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BFD5774-8379-4A81-A2C6-17F36929C20A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BFD5774-8379-4A81-A2C6-17F36929C20A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADCD6858-E675-426C-B037-18154CE08EDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADCD6858-E675-426C-B037-18154CE08EDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADCD6858-E675-426C-B037-18154CE08EDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADCD6858-E675-426C-B037-18154CE08EDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA9DF792-3F3A-4568-9399-AD5DA422BE39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA9DF792-3F3A-4568-9399-AD5DA422BE39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA9DF792-3F3A-4568-9399-AD5DA422BE39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA9DF792-3F3A-4568-9399-AD5DA422BE39}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

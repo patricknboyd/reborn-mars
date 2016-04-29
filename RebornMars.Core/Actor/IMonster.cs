@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Boyd.Games.RebornMars.Inventory;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -29,6 +30,8 @@ namespace Boyd.Games.RebornMars.Actor
         int Evasion { get; set; }
 
         void Update();
+
+        IEnumerable<IItem> Inventory { get; }
 
         AttackResult Attack(IMonster target);
         void TakeDamage(AttackResult attack);

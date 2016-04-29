@@ -31,6 +31,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=8.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.8.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -75,11 +79,18 @@
       <DesignTime>True</DesignTime>
     </Compile>
     <Compile Include="AttackResult.cs" />
+    <Compile Include="Dice.cs" />
     <Compile Include="Enumerations.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="IGameConsole.cs" />
     <Compile Include="IGameCore.cs" />
     <Compile Include="IInputManager.cs" />
+    <Compile Include="Inventory\IItem.cs" />
+    <Compile Include="Inventory\Item.cs" />
+    <Compile Include="Inventory\ItemList.cs" />
+    <Compile Include="Inventory\ItemTemplate.cs" />
+    <Compile Include="Inventory\IWieldable.cs" />
+    <Compile Include="Inventory\SwordItem.cs" />
     <Compile Include="World\DungeonBranches\DebugDungeonBranch.cs" />
     <Compile Include="World\DungeonBranches\DungeonBranchConnection.cs" />
     <Compile Include="World\Map\DefaultMapGenerator.cs" />
@@ -129,7 +140,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Item\" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

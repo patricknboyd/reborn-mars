@@ -70,6 +70,15 @@ namespace Boyd.Games.RebornMars.Assets {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Dice input string is not in expected format..
+        /// </summary>
+        public static string DiceInvalidFormat {
+            get {
+                return ResourceManager.GetString("DiceInvalidFormat", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Dungeon branch {0} does not currently exist in this game..
         /// </summary>
         public static string DungeonBranchNotFound {
@@ -84,6 +93,15 @@ namespace Boyd.Games.RebornMars.Assets {
         public static string DungeonLevelDoesNotExist {
             get {
                 return ResourceManager.GetString("DungeonLevelDoesNotExist", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to An item with ID {0} has already been added..
+        /// </summary>
+        public static string DuplicateItemId {
+            get {
+                return ResourceManager.GetString("DuplicateItemId", resourceCulture);
             }
         }
         

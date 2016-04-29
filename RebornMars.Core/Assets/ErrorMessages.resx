@@ -120,6 +120,9 @@
   <data name="CurrentLevelNotInAvailableRange" xml:space="preserve">
     <value>The current level is outside the range of available levels.</value>
   </data>
+  <data name="DiceInvalidFormat" xml:space="preserve">
+    <value>Dice input string is not in expected format.</value>
+  </data>
   <data name="DungeonBranchNotFound" xml:space="preserve">
     <value>Dungeon branch {0} does not currently exist in this game.</value>
     <comment>{0} is the name of the dungeon branch.</comment>
@@ -127,6 +130,9 @@
   <data name="DungeonLevelDoesNotExist" xml:space="preserve">
     <value>The map at level {0} of branch {1}, has not been created yet. Create the map level using DungeonBranch.CreateNewLevel() before trying to move the player onto that level.</value>
     <comment>{0} is the dungeon level, {1} is the dungeon branch name.</comment>
+  </data>
+  <data name="DuplicateItemId" xml:space="preserve">
+    <value>An item with ID {0} has already been added.</value>
   </data>
   <data name="DuplicateServiceMessage" xml:space="preserve">
     <value>A service of type {0} has already been registered.</value>

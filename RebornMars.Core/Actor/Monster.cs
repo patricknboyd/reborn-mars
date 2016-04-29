@@ -1,4 +1,5 @@
 ﻿using Boyd.Games.RebornMars.Assets;
+using Boyd.Games.RebornMars.Inventory;
 using Boyd.Games.RebornMars.Map;
 using System;
 using System.Collections.Generic;
@@ -34,13 +35,19 @@ namespace Boyd.Games.RebornMars.Actor
         public string AttackVerb { get; protected set; }
         public char Symbol { get; protected set; }
 
+        private List<IItem> _inventory;
+        public IEnumerable<IItem> Inventory {  get { return _inventory; } }
+
         public Monster()
         {
             Name = "Undefined";
             Symbol = MonsterSymbols.UndefinedMonsters[0];
+
+            _inventory = new List<IItem>();
         }
 
-        internal Monster(MonsterDefinition template, Position position)
+        internal Monster(MonsterDefinition template, Position position) 
+            : this()
         {
             Name = template.Name;
             DefinitiveForm = template.DefinitiveForm;

@@ -41,4 +41,15 @@ namespace Boyd.Games.RebornMars
         Down,
         DownLeft
     }
+
+    public enum ItemCategory
+    {
+        Weapon,
+        Armour,
+        Potion,
+        Scroll,
+        Ring,
+        Amulet,
+        Undefined
+    }
 }
